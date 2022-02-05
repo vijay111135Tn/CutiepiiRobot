@@ -135,8 +135,8 @@ if ENV:
     SPAMWATCH_API = os.environ.get("SPAMWATCH_API", None) # From https://t.me/SpamWatchBot 
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "") # Bot Username
     STRING_SESSION = os.environ.get("STRING_SESSION", None) # Telethon Based String Session (2nd ID) [ From https://repl.it/@SpEcHiDe/GenerateStringSession ]
-    APP_ID = os.environ.get("APP_ID", None) # 2nd ID 
-    APP_HASH = os.environ.get("APP_HASH", None) # 2nd ID
+    APP_ID = "7605360"
+    APP_HASH = "c389a60f3db749678a93173096aeb88f"
     HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", True) # Heroku App Name 
     HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", True) # Heroku API [From https://dashboard.heroku.com/account]
     YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", True)
